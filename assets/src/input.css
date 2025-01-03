@@ -31,6 +31,9 @@
     padding: 0;
     background-color: #141C24;
   }
+  main{
+    overflow:hidden;
+  }
   a{
     color: #fff;
     text-decoration: none;

@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.13 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -550,7 +550,7 @@ video {
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
-[hidden] {
+[hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
 
@@ -591,6 +591,10 @@ body{
   background-color: #141C24;
 }
 
+main{
+  overflow:hidden;
+}
+
 a{
   color: #fff;
   text-decoration: none;
@@ -616,14 +620,6 @@ button{
 .gradient_cast-css{
   background: rgb(57, 57, 57);
   background: linear-gradient(90deg, rgba(57, 57, 57,1) 0%, rgba(0,255,240,1) 50%, rgba(57, 57, 57,1) 100%);
-}
-
-.changes_bg_for_hero-block{
-  min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* background-image: url(../img/hero-block_bg/3.jpeg); */
-  background-size:  cover;
 }
 
 #stars {
@@ -805,10 +801,6 @@ button{
   margin-top: 7rem;
 }
 
-.mt-\[-5px\] {
-  margin-top: -5px;
-}
-
 .flex {
   display: flex;
 }
@@ -858,16 +850,16 @@ button{
   height: 100vh;
 }
 
-.w-0 {
-  width: 0px;
-}
-
 .w-36 {
   width: 9rem;
 }
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-\[1920px\] {
+  width: 1920px;
 }
 
 .w-full {
@@ -955,7 +947,7 @@ button{
 
 .bg-\[\#111111\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 17 17 / var(--tw-bg-opacity));
+  background-color: rgb(17 17 17 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[rgba\(15\2c 15\2c 15\2c 0\.5\)\] {
@@ -964,7 +956,7 @@ button{
 
 .bg-\[rgba\(17\2c 17\2c 17\)\] {
   --tw-bg-opacity: 1;
-  background-color: rgba(17, 17, 17, var(--tw-bg-opacity));
+  background-color: rgba(17, 17, 17, var(--tw-bg-opacity, 1));
 }
 
 .bg-border {
@@ -981,6 +973,22 @@ button{
 
 .p-px {
   padding: 1px;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-\[2px\] {
+  padding: 2px;
+}
+
+.p-\[1px\] {
+  padding: 1px;
+}
+
+.p-\[1\.5px\] {
+  padding: 1.5px;
 }
 
 .px-3 {
@@ -1058,16 +1066,8 @@ button{
   color: rgb(var(--color-primary));
 }
 
-.opacity-50 {
-  opacity: 0.5;
-}
-
 .opacity-100 {
   opacity: 1;
-}
-
-.opacity-10 {
-  opacity: 0.1;
 }
 
 .opacity-30 {
@@ -1154,6 +1154,14 @@ button{
     grid-column: span 9 / span 9;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1179,6 +1187,18 @@ button{
 
   .lg\:col-span-9 {
     grid-column: span 9 / span 9;
+  }
+
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:col-span-10 {
+    grid-column: span 10 / span 10;
+  }
+
+  .lg\:col-span-11 {
+    grid-column: span 11 / span 11;
   }
 
   .lg\:flex {
@@ -1214,6 +1234,18 @@ button{
 
   .xl\:col-span-8 {
     grid-column: span 8 / span 8;
+  }
+
+  .xl\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:hidden {
+    display: none;
   }
 }
 
