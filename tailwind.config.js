@@ -4,7 +4,7 @@
 
 module.exports = {
   content: [
-    './*.html',
+    './home/*.html',
   ],
   theme: {
     container: {
@@ -37,6 +37,11 @@ module.exports = {
         // => @media (min-width: 1280px) { ... }
         '2xl': '1530px',
         // => @media (min-width: 1536px) { ... }
+      },
+      borderRadius: {
+        'none': '0',
+        'sm': '0.125rem',
+        'cast-rou': '20px',
       }
     }
 
