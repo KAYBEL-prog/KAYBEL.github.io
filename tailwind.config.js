@@ -20,7 +20,8 @@ module.exports = {
         // Using `rgb`
         secondary: 'rgb(var(--color-backgroud))',
         primary: 'rgb(var(--color-primary))',
-        border: 'rgb(var(--color-border))'
+        border: 'rgb(var(--color-border))',
+        'border-h': 'rgb(var(--color-border-hover))'
       },
       borderRadius: {
         'none': '0',

@@ -52,6 +52,7 @@
     --color-primary: 2, 241, 253;
 
     --color-border: 57, 57, 57;
+    --color-border-hover: 0, 139, 173;
   }
   .gradient_cast-css{
     background: rgb(57, 57, 57);

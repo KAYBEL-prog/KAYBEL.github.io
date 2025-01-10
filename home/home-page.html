@@ -13,7 +13,6 @@
       <div class="w-full h-0 flex justify-center items-center">
         <div id="header" class="fixed z-50 container h-20 sm:px-5 md:px-10 grid justify-center items-center grid-cols-12 bg-[rgba(15,15,15,0.5)] backdrop-blur-[3px] border-2 border-border shadow-lg shadow-[rgba(15,15,15,0.9)] rounded-md transition-[1s] ease-[cubic-bezier(0.68, -0.55, 0.27, 1.55)] overflow-hidden">
           
-
           <div class="2xl:col-span-3 xl:col-span-3 lg:col-span-10 md:col-span-9 col-span-7 h-20 py-3 flex items-center">
             <a href="/home/home-page.html" class="flex items-center h-10" >
               <!-- <img class="w-36" src="../assets/img/icon/logo-png.png" alt="logo"> -->
@@ -30,7 +29,7 @@
             </button>
             <button class="opacity-100 btn-home z-20 relative min-w-52 h-12 mx-1 px-px py-[1px] rounded-sm gradient_cast-css overflow-hidden shadow-lg shadow-black active:shadow-transparent active:scale-90">
               <a id="change-link" href="#home" class="w-full h-full flex justify-center items-center font-body rounded-sm text-3xl text-primary bg-[#111111]" >
-                <div id="anim-change-link" class="relative h-max -top-7 " style="transition: top 0.3s;">
+                <div id="anim-change-link" class="relative h-max top-7 " style="transition: top 0.3s;">
                   <span id="swap-btn-1" class="h-full justify-center items-center"><p class="h-full flex justify-center items-center">Go Up?</p></span>
                   <span id="swap-btn-2" class="block h-full mt-5 justify-center items-center"><p class="h-full flex justify-center items-center">let's go?</p></span>
                 </div>
@@ -99,23 +98,22 @@
           </div>
         </section>
        
-        <section id="portfolio">
-          <div class="portfolio-title container">
-            <p class="pl-7 text-primary text-7xl font-body tracking-wider" >Portfolio</p>
-          </div>
-          <div class="portfolio container transition-[0.3s] mx-auto min-h-screen flex items-start  overflow-hidden">
-            
-            <div class="portfolio-content  min-h-[700px] w-full px-1 items-start grid grid-cols-2 md:grid-cols-4 gap-y-2 md:gap-y-8  ">
+        <section id="portfolio" class=" min-h-screen flex items-center justify-center">
+          <div class="portfolio__inner container ">
+            <div class="portfolio-title w-full my-5">
+              <p class=" pl-10 text-primary text-7xl font-body tracking-wider">Portfolio</p>
+            </div>
+            <div class="portfolio  transition-[0.3s] mx-auto  flex items-start  overflow-hidden">
 
-              <div class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center bg-white rounded-cast-rou"></div>
-              <div class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center bg-white rounded-cast-rou"></div>
-              <div class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center bg-white rounded-cast-rou"></div>
-              <div class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center bg-white rounded-cast-rou"></div>
-              <div class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center bg-white rounded-cast-rou"></div>
-              <div class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center bg-white rounded-cast-rou"></div>
-              <div class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center bg-white rounded-cast-rou"></div>
-              <div class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center bg-white rounded-cast-rou"></div>
+              <div class="portfolio-content relative z-50 min-h-max w-full px-1 items-start grid grid-cols-2 md:grid-cols-4 gap-y-2 md:gap-y-8  ">
 
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[150px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
+
+
+              </div>
             </div>
           </div>
         </section>
