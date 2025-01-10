@@ -880,6 +880,22 @@ button{
   height: 100vh;
 }
 
+.h-\[250px\] {
+  height: 250px;
+}
+
+.h-\[180px\] {
+  height: 180px;
+}
+
+.h-\[190px\] {
+  height: 190px;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
 .min-h-max {
   min-height: -moz-max-content;
   min-height: max-content;
@@ -924,6 +940,14 @@ button{
 
 .min-w-\[130px\] {
   min-width: 130px;
+}
+
+.min-w-\[150px\] {
+  min-width: 150px;
+}
+
+.min-w-\[160px\] {
+  min-width: 160px;
 }
 
 .max-w-36 {
@@ -1275,6 +1299,10 @@ button{
 
   .md\:min-w-\[300px\] {
     min-width: 300px;
+  }
+
+  .md\:min-w-\[400px\] {
+    min-width: 400px;
   }
 
   .md\:grid-cols-4 {
