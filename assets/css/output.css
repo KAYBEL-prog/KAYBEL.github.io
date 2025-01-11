@@ -823,6 +823,18 @@ button{
   margin-top: 1.25rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
 .block {
   display: block;
 }
@@ -896,6 +908,10 @@ button{
   height: 200px;
 }
 
+.h-\[170px\] {
+  height: 170px;
+}
+
 .min-h-max {
   min-height: -moz-max-content;
   min-height: max-content;
@@ -966,6 +982,10 @@ button{
 .max-w-min {
   max-width: -moz-min-content;
   max-width: min-content;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .grid-cols-12 {
@@ -1125,6 +1145,10 @@ button{
   padding-top: 90px;
 }
 
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1168,6 +1192,11 @@ button{
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .leading-\[50px\] {
@@ -1266,13 +1295,30 @@ button{
 }
 
 @media (min-width: 425px) {
+  .sm\:ml-3 {
+    margin-left: 0.75rem;
+  }
+
   .sm\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
 
+  .sm\:text-right {
+    text-align: right;
+  }
+
+  .sm\:text-start {
+    text-align: start;
+  }
+
   .sm\:text-\[100px\] {
     font-size: 100px;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .sm\:leading-\[100px\] {
@@ -1320,6 +1366,16 @@ button{
 
   .md\:text-\[150px\] {
     font-size: 150px;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:leading-\[160px\] {

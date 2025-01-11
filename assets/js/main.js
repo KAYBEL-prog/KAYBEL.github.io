@@ -14,7 +14,7 @@ const targetBlock = document.getElementById('portfolio');
 const options = {
   root: null, // Область — весь viewport
   rootMargin: '0px', // Без отступов
-  threshold: 0.1 // % видимости элемента
+  threshold: 0.5 // % видимости элемента
 };
 const callback = (entries) => {
   entries.forEach(entry => {
@@ -26,7 +26,7 @@ const callback = (entries) => {
         animLink.classList.remove('-top-7');
         animLink.classList.add('top-7');
 
-      }, 300);
+      }, 1);
     } else {
       link.href = '#portfolio';
       header.style.marginTop = '80px';
@@ -35,7 +35,7 @@ const callback = (entries) => {
         animLink.classList.remove('top-7');
         animLink.classList.add('-top-7');
 
-      }, 300);
+      }, 1);
     }
   });
 };
