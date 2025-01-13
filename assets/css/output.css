@@ -739,12 +739,12 @@ button{
   position: relative;
 }
 
-.-top-7 {
-  top: -1.75rem;
-}
-
 .-top-16 {
   top: -4rem;
+}
+
+.-top-7 {
+  top: -1.75rem;
 }
 
 .top-16 {
@@ -815,24 +815,16 @@ button{
   margin-bottom: 3.5rem;
 }
 
+.ml-0 {
+  margin-left: 0px;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.ml-0 {
-  margin-left: 0px;
 }
 
 .block {
@@ -871,8 +863,8 @@ button{
   height: 5rem;
 }
 
-.h-\[150px\] {
-  height: 150px;
+.h-\[170px\] {
+  height: 170px;
 }
 
 .h-\[2px\] {
@@ -890,26 +882,6 @@ button{
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[250px\] {
-  height: 250px;
-}
-
-.h-\[180px\] {
-  height: 180px;
-}
-
-.h-\[190px\] {
-  height: 190px;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[170px\] {
-  height: 170px;
 }
 
 .min-h-max {
@@ -958,20 +930,16 @@ button{
   min-width: 130px;
 }
 
-.min-w-\[150px\] {
-  min-width: 150px;
-}
-
-.min-w-\[160px\] {
-  min-width: 160px;
-}
-
 .max-w-36 {
   max-width: 9rem;
 }
 
 .max-w-40 {
   max-width: 10rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .max-w-max {
@@ -982,10 +950,6 @@ button{
 .max-w-min {
   max-width: -moz-min-content;
   max-width: min-content;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .grid-cols-12 {
@@ -1070,9 +1034,8 @@ button{
   background-color: rgba(17, 17, 17, var(--tw-bg-opacity, 1));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+.bg-black\/80 {
+  background-color: rgb(0 0 0 / 0.8);
 }
 
 .bg-border {
@@ -1085,14 +1048,6 @@ button{
 
 .bg-secondary {
   background-color: rgb(var(--color-backgroud));
-}
-
-.bg-black\/50 {
-  background-color: rgb(0 0 0 / 0.5);
-}
-
-.bg-black\/80 {
-  background-color: rgb(0 0 0 / 0.8);
 }
 
 .p-\[1\.5px\] {
@@ -1137,24 +1092,16 @@ button{
   padding-bottom: 1.25rem;
 }
 
-.pl-10 {
-  padding-left: 2.5rem;
+.pl-7 {
+  padding-left: 1.75rem;
 }
 
 .pt-\[90px\] {
   padding-top: 90px;
 }
 
-.pl-7 {
-  padding-left: 1.75rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .font-Russo {
@@ -1170,13 +1117,13 @@ button{
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -1192,11 +1139,6 @@ button{
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .leading-\[50px\] {
@@ -1304,21 +1246,17 @@ button{
     padding-right: 1.25rem;
   }
 
-  .sm\:text-right {
-    text-align: right;
-  }
-
   .sm\:text-start {
     text-align: start;
-  }
-
-  .sm\:text-\[100px\] {
-    font-size: 100px;
   }
 
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .sm\:text-\[100px\] {
+    font-size: 100px;
   }
 
   .sm\:leading-\[100px\] {
@@ -1347,10 +1285,6 @@ button{
     min-width: 300px;
   }
 
-  .md\:min-w-\[400px\] {
-    min-width: 400px;
-  }
-
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1364,8 +1298,9 @@ button{
     padding-right: 2.5rem;
   }
 
-  .md\:text-\[150px\] {
-    font-size: 150px;
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-7xl {
@@ -1373,9 +1308,8 @@ button{
     line-height: 1;
   }
 
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .md\:text-\[150px\] {
+    font-size: 150px;
   }
 
   .md\:leading-\[160px\] {
@@ -1402,11 +1336,6 @@ button{
 
   .lg\:text-left {
     text-align: left;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .lg\:text-\[200px\] {

@@ -6,6 +6,12 @@ module.exports = {
   content: [
     './home/*.html',
   ],
+  safelist: [
+    'top-16', // класс, который нужно сохранить
+    '-top-16', // ещё один пример
+    '-top-7',
+    'top-7'
+  ],
   theme: {
     container: {
       center: true,
