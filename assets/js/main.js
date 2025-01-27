@@ -54,15 +54,9 @@ const btnBurgerMenu = document.getElementById('open-burger-menu');
 const blockBurgerMenu = document.querySelector('.overlay_burger-menu');
 
 btnBurgerMenu.addEventListener('click', () => {
-  if (blockBurgerMenu.classList.contains('-top-[1500px]')) {
-    blockBurgerMenu.classList.remove('-top-[1500px]');
-    blockBurgerMenu.classList.add('-top-[1px]');
-
-  } else {
-    blockBurgerMenu.classList.add('-top-[1500px]');
-    blockBurgerMenu.classList.remove('-top-[1px]');
-  }
+  blockBurgerMenu.classList.toggle('-top-[-1500px]');
 });
+
 
 
 
