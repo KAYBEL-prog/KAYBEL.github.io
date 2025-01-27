@@ -9,6 +9,8 @@ module.exports = {
   safelist: [
     'top-16',
     '-top-16',
+    '-top-[1px]',
+    '-top-[1500px]',
     '-top-7',
     'top-7'
   ],
@@ -25,6 +27,7 @@ module.exports = {
       colors: {
         // Using `rgb`
         secondary: 'rgb(var(--color-backgroud))',
+        'secondary/50': 'rgb(var(--color-backgroud-bg))',
         primary: 'rgb(var(--color-primary))',
         border: 'rgb(var(--color-border))',
         'border-h': 'rgb(var(--color-border-hover))'

@@ -7,53 +7,51 @@
         <link rel='stylesheet' href='./../assets/css/output.css'>
           <title>Kleimeri - Home</title>
         </head>
-
-  <body class="bg-secondary ">
+  <body class="bg-secondary">
     <header>
-      <div class="w-full h-0 flex justify-center items-center">
+      <div class="sticky w-full h-0 flex justify-center items-center z-50">
         <div id="header" class="fixed z-50 container h-20 sm:px-5 md:px-10 grid justify-center items-center grid-cols-12 bg-[rgba(15,15,15,0.5)] backdrop-blur-[3px] border-2 border-border shadow-lg shadow-[rgba(15,15,15,0.9)] rounded-md transition-[1s] ease-[cubic-bezier(0.68, -0.55, 0.27, 1.55)] overflow-hidden">
           
           <div class="2xl:col-span-3 xl:col-span-3 lg:col-span-10 md:col-span-9 col-span-7 h-20 py-3 flex items-center">
-            <a href="/home/home-page.html" class="flex items-center h-10" >
-              <!-- <img class="w-36" src="../assets/img/icon/logo-png.png" alt="logo"> -->
-              <p class="flex items-center ml-3 font-body tracking-wider text-4xl sm:text-5xl text-primary" >KAYBEL</p>
+            <a href="/home/home-page.html" class="ml-3 flex items-center h-10" >
+              <p class="flex items-center  font-body tracking-wider text-4xl sm:text-5xl text-primary" >KAYBEL</p>
             </a>
           </div>
 
           <nav class="2xl:col-span-8 xl:col-span-8 lg:col-span-9 col-span-9 h-max hidden xl:flex justify-center items-center">
-            <button class="opacity-30 btn-price_list  z-10 relative min-w-36 h-10 mx-1 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
-                <span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">Price-list</span>
-            </button>
-            <button class="opacity-100 btn-portfolio z-10 relative min-w-36 mx-1 h-10 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
-              <a href="#portfolio"><span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">Portfolio</span></a>
-            </button>
-            <button class="opacity-100 btn-home z-20 relative min-w-52 h-12 mx-1 px-px py-[1px] rounded-sm gradient_cast-css overflow-hidden shadow-lg shadow-black active:shadow-transparent active:scale-90">
-              <a id="change-link" href="#home" class="w-full h-full flex justify-center items-center font-body rounded-sm text-3xl text-primary bg-[#111111]" >
-                <div id="anim-change-link" class="relative h-max top-7 " style="transition: top 0.3s;">
+            <a href="#" class="opacity-30 btn-price_list  z-10 relative min-w-36 h-10 mx-1 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
+              <span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">Price-list</span>
+            </a>
+            <a href="#portfolio" class="opacity-100 btn-portfolio z-10 relative min-w-36 mx-1 h-10 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
+              <span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">Portfolio</span>
+            </a>
+            <a id="change-link" href="#home" class="opacity-100 btn-home z-20 relative min-w-52 h-12 mx-1 px-px py-[1px] rounded-sm gradient_cast-css overflow-hidden shadow-lg shadow-black active:shadow-transparent active:scale-90">
+              <span class="w-full h-full flex justify-center items-center font-body rounded-sm text-3xl text-primary bg-[#111111]" >
+                <div id="anim-change-link" class="relative h-max -top-7 " style="transition: top 0.3s;">
                   <span id="swap-btn-1" class="h-full justify-center items-center"><p class="h-full flex justify-center items-center">Go Up?</p></span>
                   <span id="swap-btn-2" class="block h-full mt-5 justify-center items-center"><p class="h-full flex justify-center items-center">let's go?</p></span>
                 </div>
-              </a>
-            </button>
-            <button class="opacity-30 btn-about z-10  relative min-w-36 h-10 mx-1 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
+              </span>
+            </a>
+            <a href="#" class="opacity-30 btn-about z-10  relative min-w-36 h-10 mx-1 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
               <span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">About me</span>
-            </button>
-            <button class="opacity-30 btn-contact z-10 relative min-w-36 h-10 mx-1 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
+            </a>
+            <a href="#" class="opacity-30 btn-contact z-10 relative min-w-36 h-10 mx-1 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
               <span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">Contact</span>
-            </button>
+            </a>
           </nav>
 
           <nav class="lg:col-span-1 md:col-span-2 col-span-3  h-max flex justify-center items-center">
             <a href="#" class="opacity-30 max-w-40 h-10 p-px rounded-sm bg-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
               <div class="w-full h-full font-body rounded-sm text-xl text-primary bg-[#111111]">
-                <span class="h-full px-3 flex justify-center items-center">RU</span>
                 <span class="h-full px-3 flex justify-center items-center">EN</span>
+                <span class="h-full px-3 flex justify-center items-center">RU</span>
               </div>
             </a>
           </nav>
 
-          <nav class="open-burger-menu md:col-span-1 col-span-2  xl:hidden flex ">
-            <button id="openDrawerBtn" class="z-10 px-3 relative max-w-36 h-10 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
+          <nav class="open-burger-menu md:col-span-1 col-span-2 xl:hidden flex ">
+            <button id="open-burger-menu" class="z-10 px-3 relative max-w-36 h-10 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
               <div class="w-max font-body text-xl text-primary">
                 <div class="w-6 h-[2px] my-[3px] mx-auto bg-primary"></div>
                 <div class="w-6 h-[2px] my-[3px] mx-auto bg-primary"></div>
@@ -65,15 +63,58 @@
         </div>
       </div>
     </header>
-    
+
+
+    <div class="overlay_burger-menu flex xl:hidden fixed -top-[1500px] w-full h-screen min-h-[420px] z-40 " style="transition: top 1s;" >
+      <div class="overlay_burger-menu__inner container relative flex w-full h-full bg-secondary/50 border-r-2 border-l-2 border-border z-40 transition-[1s]">
+        <div class="main w-full flex justify-end items-center ">
+
+          <nav class="w-[220px] h-max flex flex-wrap justify-end  ">
+
+            <a href="#home" class="opacity-100 btn-home text-end my-1 z-20 relative min-w-44 h-12 mx-1 px-px py-[1px] rounded-sm gradient_cast-css overflow-hidden shadow-lg shadow-black active:shadow-transparent active:scale-90">
+              <span class="w-full h-full flex justify-center items-center font-body rounded-sm text-3xl text-primary bg-[#111111]" >
+                <div class="relative h-max  " style="transition: top 0.3s;">
+                  <span id="swap-btn-1" class="h-full justify-center items-center">Home</span>
+                </div>
+              </span>
+            </a>
+
+            <a href="#portfolio" class="opacity-100 btn-portfolio text-end my-1 z-10 relative min-w-36 mx-1 h-10 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
+              <span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">Portfolio</span>
+            </a>
+
+            <a href="#" class="opacity-30 btn-price_list text-end my-1 z-10 relative min-w-36 h-10 mx-1 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
+              <span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">Price-list</span>
+            </a>
+
+            <a href="#" class="opacity-30 btn-about text-end my-1 z-10 relative min-w-36 h-10 mx-1 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
+              <span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">About me</span>
+            </a>
+
+            <a href="#" class="opacity-30 btn-contact text-end my-1 z-10 relative min-w-36 h-10 mx-1 p-px rounded-sm bg-[rgba(17,17,17)] border-solid border border-border overflow-hidden shadow-md shadow-black active:shadow-transparent active:scale-95 transition-[0.1s]" >
+              <span class="h-full px-5 flex justify-center items-center font-body text-xl text-primary">Contact</span>
+            </a>
+
+            
+            
+            
+            
+          </nav>  
+
+        </div>
+        <div class="footer bg-secondary absolute bottom-0 w-full h-20  pb-2 border-border border-t-2 border-b-2"></div>
+      </div>
+    </div>
+
+
     <main>
 
-      <div class="mx-auto wrapper relative z-40 ">
-        <div class="absolute w-full flex justify-center ">
-          <div class="w-[1920px] h-0 absolute" style="margin-left: -50px;">
-            <div id='stars'></div>
-            <div id='stars2'></div>
-            <div id='stars3'></div>
+      <div class="mx-auto wrapper relative z-30 ">
+        <div class="fixed  w-full flex justify-center min-h-screen overflow-hidden">
+          <div class="w-[1920px] absolute top-0 bottom-0 h-0 " style="margin-left: -50px;">
+            <div id='stars' class="absolute "></div>
+            <div id='stars2' class="absolute "></div>
+            <div id='stars3' class="absolute "></div>
           </div>
         </div>
         <section id="home">
@@ -97,23 +138,72 @@
             </div>
           </div>
         </section>
-       
         <section id="portfolio" class=" min-h-screen flex items-center justify-center">
-          <div class="portfolio__inner container ">
+          <div class="portfolio__inner container  mt-24">
             <div class="portfolio-title w-full my-5">
               <p class=" pl-7 text-primary text-5xl md:text-7xl font-body tracking-wider">Portfolio</p>
             </div>
-            <div class="portfolio  transition-[0.3s] mx-auto  flex items-start  overflow-hidden">
+            <div class="portfolio transition-[0.3s] mx-auto flex items-start overflow-hidden">
 
-              <div class="portfolio-content relative z-50 min-h-max w-full px-1 items-start grid grid-cols-2 md:grid-cols-4 gap-y-2 md:gap-y-8  ">
+              <div class="portfolio-content relative z-50 min-h-max w-full px-1 items-start grid grid-cols-2 md:grid-cols-4 gap-y-2 md:gap-y-5  ">
 
-                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[170px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
-                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[170px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
-                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[170px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
-                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[170px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
-                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[170px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
-                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[300px] h-[170px] md:h-[380px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/80 rounded-cast-rou" style="transition: 0.3s;"></a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[270px] h-[170px] md:h-[340px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/70 rounded-cast-rou backdrop-blur-[3px] overflow-hidden" style="transition: 0.3s;">
 
+                    <div class="information-line relative w-full h-max pt-3 px-3 -top-11" style="transition: top 0.3s;">
+                      <div class="h-[30px] bg-black/25 rounded-full border-[1px] border-border "></div>
+                    </div>
+
+                </a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[270px] h-[170px] md:h-[340px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/70 rounded-cast-rou backdrop-blur-[3px] overflow-hidden" style="transition: 0.3s;">
+
+                  <div class="information-line relative w-full h-max pt-3 px-3 -top-11" style="transition: top 0.3s;">
+                    <div class="h-[30px] bg-black/25 rounded-full border-[1px] border-border "></div>
+                  </div>
+
+                </a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[270px] h-[170px] md:h-[340px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/70 rounded-cast-rou backdrop-blur-[3px] overflow-hidden" style="transition: 0.3s;">
+
+                  <div class="information-line relative w-full h-max pt-3 px-3 -top-11" style="transition: top 0.3s;">
+                    <div class="h-[30px] bg-black/25 rounded-full border-[1px] border-border "></div>
+                  </div>
+
+                </a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[270px] h-[170px] md:h-[340px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/70 rounded-cast-rou backdrop-blur-[3px] overflow-hidden" style="transition: 0.3s;">
+
+                  <div class="information-line relative w-full h-max pt-3 px-3 -top-11" style="transition: top 0.3s;">
+                    <div class="h-[30px] bg-black/25 rounded-full border-[1px] border-border "></div>
+                  </div>
+
+                </a>
+
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[270px] h-[170px] md:h-[340px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/70 rounded-cast-rou backdrop-blur-[3px] overflow-hidden" style="transition: 0.3s;">
+
+                  <div class="information-line relative w-full h-max pt-3 px-3 -top-11" style="transition: top 0.3s;">
+                    <div class="h-[30px] bg-black/25 rounded-full border-[1px] border-border "></div>
+                  </div>
+
+                </a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[270px] h-[170px] md:h-[340px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/70 rounded-cast-rou backdrop-blur-[3px] overflow-hidden" style="transition: 0.3s;">
+
+                  <div class="information-line relative w-full h-max pt-3 px-3 -top-11" style="transition: top 0.3s;">
+                    <div class="h-[30px] bg-black/25 rounded-full border-[1px] border-border "></div>
+                  </div>
+
+                </a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[270px] h-[170px] md:h-[340px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/70 rounded-cast-rou backdrop-blur-[3px] overflow-hidden" style="transition: 0.3s;">
+
+                  <div class="information-line relative w-full h-max pt-3 px-3 -top-11" style="transition: top 0.3s;">
+                    <div class="h-[30px] bg-black/25 rounded-full border-[1px] border-border "></div>
+                  </div>
+
+                </a>
+                <a href="#" class="portfolio-content__item min-w-[130px] md:min-w-[270px] h-[170px] md:h-[340px] justify-self-center border-[1px] border-border hover:border-border-h bg-black/70 rounded-cast-rou backdrop-blur-[3px] overflow-hidden" style="transition: 0.3s;">
+
+                  <div class="information-line relative w-full h-max pt-3 px-3 -top-11" style="transition: top 0.3s;">
+                    <div class="h-[30px] bg-black/25 rounded-full border-[1px] border-border "></div>
+                  </div>
+
+                </a>
 
               </div>
             </div>
